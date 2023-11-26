@@ -21,3 +21,23 @@ line-height: 2rem;
 .list-container{
     margin-top: 1rem;
 }
+.btn{
+    padding: .4rem;
+    border: none;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+}
+/* .input-field{
+    height: 1.4rem;
+} */
+.input-field::placeholder{
+    color: lightgrey;
+    padding-left: .4rem;
+}
+input[type=text] {
+    width: 60%;
+    padding: 4px 10px;
+    box-sizing: border-box;
+   
+}
