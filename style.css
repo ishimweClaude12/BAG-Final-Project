@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 body{
-    background-color: #4E4FEB;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,8 +13,11 @@ body{
 }
 .container{
 padding: 2rem;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 35px 0px;
 border-radius: 8px;
 background-color: #0D1282;
-
+line-height: 2rem;
+}
+.list-container{
+    margin-top: 1rem;
 }
